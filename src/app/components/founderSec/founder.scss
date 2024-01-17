@@ -1,0 +1,75 @@
+.fd_main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+.founder_main{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid;
+
+    .founder_container{
+
+        width: 250px;
+        height: 500px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        overflow: hidden;
+
+        border: 1px solid;
+    }
+
+    .company_desc{
+        width: 600px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #8C52FE;
+        padding: 40px 50px;
+        h1{
+            font-size: 40px;
+            color: #ffff;
+        }
+        p{
+            font-size: 16px;
+            line-height: 27px;
+            color: #ffff;
+        }
+        .btn_explore{
+            display: flex;
+            margin-top: 30px;
+            gap: 20px;
+            align-items: center;
+            
+            .get_us_btn:hover{
+                    background-color: #ffff;
+                    color: #8C52FE;
+                }
+            
+            p{
+                font-size: 14px;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .Cmo_container{
+        width: 250px;
+        height: 500px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        overflow: hidden;
+
+        border: 1px solid;
+    }
+}
+}

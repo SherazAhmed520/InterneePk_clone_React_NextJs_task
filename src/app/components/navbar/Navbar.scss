@@ -1,0 +1,32 @@
+
+.nav-main{
+    background-color: white;
+    width: 100%;
+    padding: 25px 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        font-size: 17px;
+        
+        li{
+            cursor: pointer;
+            display: flex;
+            padding: 10px;
+            p{
+                font-size: 10px; 
+            }
+
+            &:hover{
+                color: #8C52FE;
+            }
+        }
+        
+    }
+}
