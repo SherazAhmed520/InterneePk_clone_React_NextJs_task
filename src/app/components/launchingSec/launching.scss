@@ -1,0 +1,62 @@
+
+.launching_tech{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+
+    .tech_users{
+        width: 630px;
+        height: 630px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background-color:  rgb(3, 193, 3);
+        color: #ffff;
+        h1{
+            font-size: 40px;
+            margin-top: 20px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        .t_users{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 40px;
+            padding: 0px 30px;
+            h1{
+                font-size: 60px;
+                font-weight: 300;
+            }
+
+            .users_tech{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-size: 14px;
+                    font-family: 'Arial';
+                    margin-top: -10px;
+                }
+            }
+        }
+    }
+
+
+    .tech_certification{
+        width: 630px;
+        height: 630px;
+        overflow: hidden;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+}

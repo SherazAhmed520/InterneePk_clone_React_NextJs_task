@@ -12,10 +12,15 @@ export default function Founder() {
                     src="/founder.jpg"
                     alt="Internee meeting"
                     width={300}
-                    height={500}
-                    objectFit="contain"
-                    style={{ position: 'relative' }}
+                    height={600}
+                    quality= {100}
+                    style={{ position: 'relative', objectFit: 'cover' }}
                 />
+
+                <div className="founder_name">
+                    <h2>Hammad Sheikh</h2>
+                    <p>Founder</p>
+                </div>
             </div>
 
             <div className="company_desc">
@@ -41,10 +46,14 @@ export default function Founder() {
                     src="/rayyan.jpg"
                     alt="Internee meeting"
                     width={300}
-                    height={500}
-                    objectFit="contain"
-                    style={{ position: 'relative' }}
+                    height={600}
+                    quality= {100}
+                    style={{ position: 'relative', objectFit: 'cover'  }}
                 />
+                  <div className="founder_name">
+                    <h2>Rayyan Zain</h2>
+                    <p>CMO</p>
+                </div>
             </div>
         </div>
 

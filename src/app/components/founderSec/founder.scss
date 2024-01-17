@@ -3,54 +3,68 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 
 .founder_main{
     display: flex;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    border: 1px solid;
+    gap: 20px;
 
     .founder_container{
-
-        width: 250px;
-        height: 500px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
+        position: relative;
+        width: 300px;
+        height: 600px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
         overflow: hidden;
 
-        border: 1px solid;
+        .founder_name{
+            position: absolute;
+            background-color: rgb(3, 193, 3);
+            color: #ffff;
+            border-radius: 20%;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            height: 100px;
+            padding: 20px;
+            top: 80%;
+            left: 8%;
+        }
+
     }
 
     .company_desc{
-        width: 600px;
-        height: 500px;
+        width: 630px;
+        height: 600px;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        justify-content: center;
+        gap: 20px;
         background-color: #8C52FE;
-        padding: 40px 50px;
+        padding: 50px 60px;
         h1{
-            font-size: 40px;
+            font-size: 45px;
             color: #ffff;
         }
         p{
-            font-size: 16px;
-            line-height: 27px;
+            font-size: 17px;
+            line-height: 30px;
             color: #ffff;
+            span{
+                color: #3CE792;
+                cursor: pointer;
+            }
         }
         .btn_explore{
             display: flex;
             margin-top: 30px;
             gap: 20px;
             align-items: center;
-            
-            .get_us_btn:hover{
-                    background-color: #ffff;
-                    color: #8C52FE;
-                }
+
             
             p{
                 font-size: 14px;
@@ -63,13 +77,29 @@
     }
 
     .Cmo_container{
-        width: 250px;
-        height: 500px;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        position: relative;
+        width: 300px;
+        height: 600px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
         overflow: hidden;
 
-        border: 1px solid;
+        .founder_name{
+            position: absolute;
+            background-color: rgb(3, 193, 3);
+            color: #ffff;
+            border-radius: 20%;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            height: 100px;
+            padding: 20px;
+            top: 80%;
+            left: 8%;
+        }
+
     }
 }
 }
