@@ -1,0 +1,34 @@
+.all_categories{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px ;
+    h1{
+        font-size: 40px;
+    }
+
+    .categories_list{
+        display: flex;
+        gap: 60px;
+    }
+
+    .category_circle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        border: 8px solid #8C52FE;
+        color: #ffff;
+        gap: 5px;
+        width: 145px;
+        height: 145px;
+        border-radius: 50%;
+        background-color: rgb(12, 169, 12);
+        p{
+            font-size: 11px;
+        }
+}
+}

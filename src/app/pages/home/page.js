@@ -4,6 +4,8 @@ import Founder from "@/app/components/founderSec/Founder";
 import Launching from "@/app/components/launchingSec/Launching";
 import './home.scss'
 import InternshipCard from "@/app/components/internshipCard/InternshipCard";
+import RecentInternships from "@/app/components/recentInternshipsSec/RecentInternships";
+import Categories from "@/app/components/categoriesSec/Categories";
 
 export default function Home() {
   return (
@@ -13,8 +15,10 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Founder />
+        <Categories />
         <Launching />
-        <InternshipCard />
+        <RecentInternships />
+        {/* <InternshipCard /> */}
 
 
    jdjddfdfdfd
