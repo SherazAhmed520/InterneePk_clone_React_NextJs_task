@@ -4,7 +4,7 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
-    padding: 60px ;
+    padding: 60px;
     h1{
         font-size: 40px;
     }
@@ -22,13 +22,20 @@
         font-size: 35px;
         border: 8px solid #8C52FE;
         color: #ffff;
-        gap: 5px;
+        gap: 7px;
         width: 145px;
         height: 145px;
         border-radius: 50%;
         background-color: rgb(12, 169, 12);
+        &:hover{
+            border: 8px solid #ffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+
         p{
             font-size: 11px;
+            width: 80%;
+            text-align: center;
         }
 }
 }

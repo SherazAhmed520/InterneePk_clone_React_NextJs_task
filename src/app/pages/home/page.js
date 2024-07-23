@@ -6,6 +6,7 @@ import './home.scss'
 import InternshipCard from "@/app/components/internshipCard/InternshipCard";
 import RecentInternships from "@/app/components/recentInternshipsSec/RecentInternships";
 import Categories from "@/app/components/categoriesSec/Categories";
+import Testimonials from "@/app/components/ReviewSec/review";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Launching />
         <RecentInternships />
         {/* <InternshipCard /> */}
+        <Testimonials />
 
 
    jdjddfdfdfd

@@ -1,4 +1,5 @@
 import { BsGlobe } from "react-icons/bs";
+import { category_List } from "../../../../public/category_List";
 import './category.scss'
 
 export default function Categories() {
@@ -7,29 +8,20 @@ export default function Categories() {
       <h1>Browse By Categories</h1>
 
       <div className="categories_list">
-        <div className="category_circle">
-          <BsGlobe />
-          <p>Web Development</p>
-        </div>
+{
+  category_List.map((val)=>{
 
+    console.log("name :", val.categoryTitle);
+    return<>
         <div className="category_circle">
-          <BsGlobe />
-          <p>Web Development</p>
+          {val.categoryIcon}
+          <p>{val.categoryTitle}</p>
         </div>
-        <div className="category_circle">
-          <BsGlobe />
-          <p>Web Development</p>
-        </div>
-        <div className="category_circle">
-          <BsGlobe />
-          <p>Web Development</p>
-        </div>
-        <div className="category_circle">
-          <BsGlobe />
-          <p>Web Development</p>
-        </div>
+    </>
+  })
 
-
+}
+        
       </div>
     </div>
   </>
